@@ -25,5 +25,8 @@ This plugin is not fitting for a multi-author environment. There are no permissi
 
 == Changelog ==
 
+= 0.1.2 =
+* Remove the redundant 'content-template' folder (in svn.)
+
 = 0.1 =
 * Initial release.
