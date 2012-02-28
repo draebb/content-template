@@ -3,6 +3,7 @@
 Plugin Name: Content Template
 Plugin URI: https://github.com/draebb/content-template
 Description: Define templates for repeated contents.
+Version: 0.1
 License: GPLv2 or later
 */
 

@@ -3,6 +3,7 @@ Contributors: draebb
 Tags: posts
 Requires at least: 3.3
 Tested up to: 3.3.1
+Stable tag: 0.1
 
 Define templates for repeated contents.
 
