@@ -1,0 +1,33 @@
+#content-template-list {
+	width: 100%;
+}
+
+#content-template-spinner {
+	margin-left: 0.5em;
+}
+
+#content-template-message {
+	color: red;
+}
+
+#content-template-insert {
+	float: right;
+}
+
+#content-template-delete {
+	padding-left: 1em;
+}
+
+#content-template-section-non-add {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 0.5em;
+}
+
+#content-template-name {
+	width: 100%;
+}
+
+#content-template-update-dialog,
+#content-template-delete-dialog {
+    padding: 1em;
+}

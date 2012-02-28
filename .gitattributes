@@ -1,0 +1,3 @@
+.* export-ignore
+js/tests export-ignore
+*.coffee export-ignore

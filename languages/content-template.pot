@@ -1,0 +1,75 @@
+# Copyright (C) 2012 Content Template
+# This file is distributed under the same license as the Content Template package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Template 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/content-template\n"
+"POT-Creation-Date: 2012-02-28 06:16:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: content-template.php:59
+msgid "Template Name"
+msgstr ""
+
+#: content-template.php:61
+msgid "Add New Template"
+msgstr ""
+
+#: content-template.php:63
+msgid "Select a Template"
+msgstr ""
+
+#: content-template.php:65
+msgid "Insert"
+msgstr ""
+
+#: content-template.php:67
+msgid "Update"
+msgstr ""
+
+#: content-template.php:69
+msgid "Update Template?"
+msgstr ""
+
+#: content-template.php:71
+msgid "Delete"
+msgstr ""
+
+#: content-template.php:73
+msgid "Delete Template?"
+msgstr ""
+
+#: content-template.php:75
+msgid "Cancel"
+msgstr ""
+
+#: content-template.php:77
+msgid "Template name is required."
+msgstr ""
+
+#: content-template.php:79
+msgid "Template name is duplicated."
+msgstr ""
+
+#. #-#-#-#-#  content-template.pot (Content Template 0.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: content-template.php:114
+msgid "Content Template"
+msgstr ""
+
+#: content-template.php:126
+msgid "JavaScript is required to use Content Template "
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/draebb/content-template"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Define templates for repeated contents."
+msgstr ""

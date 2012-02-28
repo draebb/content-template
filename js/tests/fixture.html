@@ -1,0 +1,196 @@
+<form name="post" action="post.php" method="post" id="post">
+	<input type="hidden" id="_wpnonce" name="_wpnonce" value="ac066ffe25"/><input type="hidden" name="_wp_http_referer" value="/wp/33/wp-admin/post-new.php"/><input type="hidden" id="user-id" name="user_ID" value="1"/>
+	<input type="hidden" id="hiddenaction" name="action" value="editpost"/>
+	<input type="hidden" id="originalaction" name="originalaction" value="editpost"/>
+	<input type="hidden" id="post_author" name="post_author" value="1"/>
+	<input type="hidden" id="post_type" name="post_type" value="post"/>
+	<input type="hidden" id="original_post_status" name="original_post_status" value="auto-draft"/>
+	<input type="hidden" id="referredby" name="referredby" value=""/>
+	<input type="hidden" name="_wp_original_http_referer" value=""/><input type='hidden' id='auto_draft' name='auto_draft' value='1'/><input type='hidden' id='post_ID' name='post_ID' value='29'/><input type="hidden" id="autosavenonce" name="autosavenonce" value="9692f55c53"/><input type="hidden" id="meta-box-order-nonce" name="meta-box-order-nonce" value="0f5dc0eb78"/><input type="hidden" id="closedpostboxesnonce" name="closedpostboxesnonce" value="59db238d42"/>
+	<div id="poststuff" class="metabox-holder has-right-sidebar">
+		<div id="side-info-column" class="inner-sidebar">
+			<div id="side-sortables" class="meta-box-sortables">
+				<div class="postbox " id="content-template">
+					<div title="Click to toggle" class="handlediv">
+						<br>
+					</div>
+					<h3 class="hndle"><span>Content Template</span></h3>
+					<div class="inside">
+						<noscript>
+						 noscript
+						</noscript>
+						<div id="content-template-content"></div>
+					</div>
+				</div>
+				<div id="categorydiv" class="postbox ">
+					<div class="handlediv" title="Click to toggle">
+						<br/>
+					</div>
+					<h3 class='hndle'><span>Categories</span></h3>
+					<div class="inside">
+						<div id="taxonomy-category" class="categorydiv">
+							<ul id="category-tabs" class="category-tabs">
+								<li class="tabs"><a href="#category-all" tabindex="3">All Categories</a></li>
+								<li class="hide-if-no-js"><a href="#category-pop" tabindex="3">Most Used</a></li>
+							</ul>
+							<div id="category-pop" class="tabs-panel" style="display: none;">
+								<ul id="categorychecklist-pop" class="categorychecklist form-no-clear">
+								</ul>
+							</div>
+							<div id="category-all" class="tabs-panel">
+								<input type='hidden' name='post_category[]' value='0'/>
+								<ul id="categorychecklist" class="list:category categorychecklist form-no-clear">
+									<li id='category-1'><label class="selectit"><input value="1" type="checkbox" name="post_category[]" id="in-category-1"/> c1</label>
+									<ul class='children'>
+										<li id='category-2'><label class="selectit"><input value="2" type="checkbox" name="post_category[]" id="in-category-2"/> c1-a</label></li>
+										<li id='category-3'><label class="selectit"><input value="3" type="checkbox" name="post_category[]" id="in-category-3"/> c1-b</label></li>
+									</ul>
+									</li>
+									<li id='category-4'><label class="selectit"><input value="4" type="checkbox" name="post_category[]" id="in-category-4"/> c2</label></li>
+									<li id='category-5'><label class="selectit"><input value="5" type="checkbox" name="post_category[]" id="in-category-5"/> c3</label></li>
+								</ul>
+							</div>
+							<div id="category-adder" class="wp-hidden-children">
+								<h4>
+								<a id="category-add-toggle" href="#category-add" class="hide-if-no-js" tabindex="3">
+								+ Add New Category </a>
+								</h4>
+								<p id="category-add" class="category-add wp-hidden-child">
+									<label class="screen-reader-text" for="newcategory">Add New Category</label>
+									<input type="text" name="newcategory" id="newcategory" class="form-required form-input-tip" value="New Category Name" tabindex="3" aria-required="true"/>
+									<label class="screen-reader-text" for="newcategory_parent">
+									Parent Category: </label>
+									<select name='newcategory_parent' id='newcategory_parent' class='postform' tabindex="3">
+										<option value='-1'>&mdash; Parent Category &mdash;</option>
+										<option class="level-0" value="3">c1</option>
+										<option class="level-1" value="6">&nbsp;&nbsp;&nbsp;c1-a</option>
+										<option class="level-1" value="7">&nbsp;&nbsp;&nbsp;c1-b</option>
+										<option class="level-0" value="4">c2</option>
+										<option class="level-0" value="5">c3</option>
+										<option class="level-0" value="1">Uncategorized</option>
+									</select>
+									<input type="button" id="category-add-submit" class="add:categorychecklist:category-add button category-add-sumbit" value="Add New Category" tabindex="3"/>
+									<input type="hidden" id="_ajax_nonce-add-category" name="_ajax_nonce-add-category" value="d665bbd79e"/><span id="category-ajax-response"></span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tagsdiv-post_tag" class="postbox ">
+					<div class="handlediv" title="Click to toggle">
+						<br/>
+					</div>
+					<h3 class='hndle'><span>Tags</span></h3>
+					<div class="inside">
+						<div class="tagsdiv" id="post_tag">
+							<div class="jaxtag">
+								<div class="nojs-tags hide-if-js">
+									<p>
+										Add or remove tags
+									</p>
+									<textarea name="tax_input[post_tag]" rows="3" cols="20" class="the-tags" id="tax-input-post_tag"></textarea>
+								</div>
+								<div class="ajaxtag hide-if-no-js">
+									<label class="screen-reader-text" for="new-tag-post_tag">Tags</label>
+									<div class="taghint">
+										Add New Tag
+									</div>
+									<p>
+										<input type="text" id="new-tag-post_tag" name="newtag[post_tag]" class="newtag form-input-tip" size="16" autocomplete="off" value=""/>
+										<input type="button" class="button tagadd" value="Add" tabindex="3"/>
+									</p>
+								</div>
+								<p class="howto">
+									Separate tags with commas
+								</p>
+							</div>
+							<div class="tagchecklist">
+							</div>
+						</div>
+						<p class="hide-if-no-js">
+							<a href="#titlediv" class="tagcloud-link" id="link-post_tag">Choose from the most used tags</a>
+						</p>
+					</div>
+				</div>
+				<div id="formatdiv" class="postbox ">
+					<div class="handlediv" title="Click to toggle">
+						<br/>
+					</div>
+					<h3 class='hndle'><span>Format</span></h3>
+					<div class="inside">
+						<div id="post-formats-select">
+							<input type="radio" name="post_format" class="post-format" id="post-format-0" value="0" checked='checked'/><label for="post-format-0">Standard</label>
+							<br/><input type="radio" name="post_format" class="post-format" id="post-format-aside" value="aside"/><label for="post-format-aside">Aside</label>
+							<br/><input type="radio" name="post_format" class="post-format" id="post-format-link" value="link"/><label for="post-format-link">Link</label>
+							<br/><input type="radio" name="post_format" class="post-format" id="post-format-gallery" value="gallery"/><label for="post-format-gallery">Gallery</label>
+							<br/><input type="radio" name="post_format" class="post-format" id="post-format-status" value="status"/><label for="post-format-status">Status</label>
+							<br/><input type="radio" name="post_format" class="post-format" id="post-format-quote" value="quote"/><label for="post-format-quote">Quote</label>
+							<br/><input type="radio" name="post_format" class="post-format" id="post-format-image" value="image"/><label for="post-format-image">Image</label>
+							<br/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="post-body">
+			<div id="post-body-content">
+				<div id="titlediv">
+					<div id="titlewrap">
+						<label class="hide-if-no-js" style="visibility:hidden" id="title-prompt-text" for="title">Enter title here</label>
+						<input type="text" name="post_title" size="30" tabindex="1" value="" id="title" autocomplete="off"/>
+					</div>
+					<div class="inside">
+						<div id="edit-slug-box">
+						</div>
+					</div>
+					<input type="hidden" id="samplepermalinknonce" name="samplepermalinknonce" value="8c3e8359af"/>
+				</div>
+				<div id="postdivrich" class="postarea">
+					<div id="wp-content-wrap" class="wp-editor-wrap html-active">
+						<link rel='stylesheet' id='editor-buttons-css' href='' type='text/css' media='all'/>
+						<div id="wp-content-editor-tools" class="wp-editor-tools">
+							<a id="content-html" class="hide-if-no-js wp-switch-editor switch-html" onclick="switchEditors.switchto(this);">HTML</a>
+							<a id="content-tmce" class="hide-if-no-js wp-switch-editor switch-tmce" onclick="switchEditors.switchto(this);">Visual</a>
+							<div id="wp-content-media-buttons" class="hide-if-no-js wp-media-buttons">
+								<a href="" class="thickbox add_media" id="content-add_media" title="Add Media" onclick="return false;">Upload/Insert <img src="" width="15" height="15"/></a>
+							</div>
+						</div>
+						<div id="wp-content-editor-container" class="wp-editor-container">
+							<textarea class="wp-editor-area" rows="20" tabindex="1" cols="40" name="content" id="content"></textarea>
+						</div>
+					</div>
+					<table id="post-status-info" cellspacing="0">
+					<tbody>
+					<tr>
+						<td id="wp-word-count">
+							Word count: <span class="word-count">0</span>
+						</td>
+						<td class="autosave-info">
+							<span class="autosave-message">&nbsp;</span>
+						</td>
+					</tr>
+					</tbody>
+					</table>
+				</div>
+				<div id="normal-sortables" class="meta-box-sortables">
+					<div id="postexcerpt" class="postbox ">
+						<div class="handlediv" title="Click to toggle">
+							<br/>
+						</div>
+						<h3 class='hndle'><span>Excerpt</span></h3>
+						<div class="inside">
+							<label class="screen-reader-text" for="excerpt">Excerpt</label><textarea rows="1" cols="40" name="excerpt" tabindex="6" id="excerpt"></textarea>
+							<p>
+								Excerpts are optional hand-crafted summaries of your content that can be used in your theme. <a href="http://codex.wordpress.org/Excerpt" target="_blank">Learn more about manual excerpts.</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="advanced-sortables" class="meta-box-sortables">
+				</div>
+			</div>
+		</div>
+		<br class="clear"/>
+	</div>
+	<!-- /poststuff -->
+</form>
